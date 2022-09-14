@@ -1,0 +1,10 @@
+Given a dataset with samples having thousands of features, we need to come up with the subset or mixtures of feataures that characterizes the samples.
+Principle Component Analysis(PCA) is a technique that is applied to get the optimum mixture of feataures with minimal loss of information. 
+This is benefits in 
+a) communications when transferring the data between source and destination. 
+b) eases the computations as the number of dimcenions is reduced and the speeds up processing in machine learning techniques
+
+PCA works by finding the optimal subspace (subset of dimensions) that minimizes the information loss and maximizes the varaiance between the samples. This is an ingeniuous technique that is used in compression of data.
+
+To demontrate PCA on image dataset by reducing the dimensions with configurable k (k represents the principal components). In this project we go to ana extent of implementing the mathematical concepts behind PCA and using that to reduce the dimensions of image dataset. Along with implementation we also analyze the error and loss of information incurred using PCA.
+
